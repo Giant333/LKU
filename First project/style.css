@@ -19,6 +19,7 @@ body {
     border-bottom: 1px black solid;
     padding-bottom: 20px;
     flex-direction: row;
+    margin-right: 0;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-content: flex-start;
@@ -29,6 +30,30 @@ body {
 .head p a{
     color:white;
 }
+.content {
+    display: flex;
+    flex: 0 0 auto;
+    border-bottom: 1px black solid;
+    margin-right: 0;
+}
+aside {
+    width: 185px;
+    float: left;
+    flex: 0 0 185px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0; 
+    margin-top: 1em;
+}
+.center {
+    width: 800px;
+    margin-left: 1em;
+}
+.footer {
+    display: flex;
+    margin-bottom: 2em;
+
+}
 .flex-1, 
 .flex-2, 
 .flex-3 {
@@ -38,34 +63,19 @@ body {
 }
 .flex-1 {
     width: 120px;
+    margin-top: 0;
 }
 .flex-2 {
-    padding: 10px;
     border: 1px solid silver;
     width: 280px;
     align-self: auto;   
 }
 .flex-3 {
-    padding: 10px;
-    margin-right: 0em;
+    padding-right: 1em;
+    margin-right: 0;
     border: 1px solid silver;
-    width: 515px;
+    width: 100%;
     text-align: right;
-}
-.content {
-    display: flex;
-    flex: 1 0 auto;
-    border-bottom: 1px black solid;
-}
-aside {
-    height: 100%;
-    width: 185px;
-    float: left;
-    flex: 0 0 185px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0; 
-    margin-top: 1em;
 }
 
 .flex-4 li {
@@ -82,11 +92,12 @@ aside {
 .flax-6
 .flex-8-9 {
     background-color:#dcdcdc;
-    width: 755px;
     margin-right: 0;
+    width: auto;
 }
 .flex-5 {
-    margin: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
     padding: 1em;
 }
 .flex-6 {
@@ -96,19 +107,23 @@ flex-wrap: wrap;
 .flex-6-item {
     height: 150px;
     width: 135px;
-    margin: 0.5em;
-    padding: 10px;
+    margin: 0.8em;
+    
 }
 .flex-7 {
     margin-top: auto;
+    margin-bottom: 1em;
     
 }
 .flex-8,
 .flex-9 {
     background-color:#dcdcdc;
-    margin: 1em;
+    padding: 1em;
+    
+    
 }
 .flex-8-9 {
+    width: 800px;
     display: flex;
     padding: 3px;
     margin: 1em;
@@ -125,16 +140,43 @@ flex-wrap: wrap;
     margin-right: 1em;
 }
 .flex-10 {
+    margin-right: 2em;
+}
+.flex-10,
+.flex-11
+ {
     display: flex;
     height: 180px;
-    width: 300px;
+    width: 315px;
     background-color:#808080;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-.flex-10 li {
+.flex-10 li,
+.flex-11 li
+ {
     color: white;
+}
+.flex-10 li {
     list-style-type: none;
+}
+.flex-12-13 {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    
+}
+.flex-12 {
+    height: 76px;
+    width: 310px;
+    background-color:#808080;
+    margin-bottom: 1em;
+    
+}
+.flex-13 {
+    height: 76px;
+    width: 310px;
+    margin-top: 1em;
 }
      ()
 * {
