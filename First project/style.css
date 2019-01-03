@@ -1,0 +1,142 @@
+html {
+	height: 100%;
+}
+.container {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+body {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.head {
+    border-bottom: 1px black solid;
+    padding-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;   
+}   
+.head p,
+.head p a{
+    color:white;
+}
+.flex-1, 
+.flex-2, 
+.flex-3 {
+    height:108px;
+    background-color:#808080;
+    margin-right:2em;
+}
+.flex-1 {
+    width: 120px;
+}
+.flex-2 {
+    padding: 10px;
+    border: 1px solid silver;
+    width: 280px;
+    align-self: auto;   
+}
+.flex-3 {
+    padding: 10px;
+    margin-right: 0em;
+    border: 1px solid silver;
+    width: 515px;
+    text-align: right;
+}
+.content {
+    display: flex;
+    flex: 1 0 auto;
+    border-bottom: 1px black solid;
+}
+aside {
+    height: 100%;
+    width: 185px;
+    float: left;
+    flex: 0 0 185px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0; 
+    margin-top: 1em;
+}
+
+.flex-4 li {
+    color: white;
+    list-style-type: none;
+   
+}
+.flex-4  {
+    background-color:#808080;
+    padding: 1em;
+
+}  
+.flex-5,
+.flax-6
+.flex-8-9 {
+    background-color:#dcdcdc;
+    width: 755px;
+    margin-right: 0;
+}
+.flex-5 {
+    margin: 1em;
+    padding: 1em;
+}
+.flex-6 {
+display: flex;
+flex-wrap: wrap;
+}
+.flex-6-item {
+    height: 150px;
+    width: 135px;
+    margin: 0.5em;
+    padding: 10px;
+}
+.flex-7 {
+    margin-top: auto;
+    
+}
+.flex-8,
+.flex-9 {
+    background-color:#dcdcdc;
+    margin: 1em;
+}
+.flex-8-9 {
+    display: flex;
+    padding: 3px;
+    margin: 1em;
+}
+.flex-8 {
+    height: 200px;
+    width: 370px;
+    margin-right: 1em;
+    border: 1px;
+}
+.flex-9 {
+    height: 200px;
+    width: 370px;
+    margin-right: 1em;
+}
+.flex-10 {
+    display: flex;
+    height: 180px;
+    width: 300px;
+    background-color:#808080;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.flex-10 li {
+    color: white;
+    list-style-type: none;
+}
+     ()
+* {
+    box-sizing: border-box;
+}
